@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#reclamosdiv{
+    width: 35%;
+    /*height: 600px;*/
+    padding: 10px;
+    margin-top: 30px;   
+    background-color: #D9D9D9;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    /* float: none;*/
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+form{
+    padding: 10px;
+}
+textarea{
+    resize: none;
+    width: 75%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+p#textofile{
+    color: black;
+    text-align: center;
+}
+#div_file{
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border: solid 0.8px;
+    border-radius: 5px;    
+   /* background-color: rgb(75, 20, 20);*/
+    box-shadow: 0 3 0 #1a71a9;
+}
+#ifile{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+#envio{
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    /*margin-left: 200px;*/
+    border-radius: 5px;
+    border-color: #c31432;
+    background-color: #c31432;
+    display: flex;
+    margin-left: 28%;
+    justify-content: center;
+
+}
+div form input{
+    border: none;
+    padding: 12px;
+    width: 75%;
+    border-radius: 5px;
+}
+.opciones{
+    background-color: white;
+    width: 75%;
+}
+div form .opciones{
+    border: none;
+    
+    padding: 5px;
+}
+.opciones select{
+    
+    border: none;
+    width: 25%;
+    border: white;
+    border-radius: 5px;
+}
